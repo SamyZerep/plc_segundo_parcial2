@@ -1,0 +1,27 @@
+print("te ayudare a gestionar  tus tareas diarias :)")
+dia= input("dame el dia de la semana:")
+hora= int(input("dame la hora en formato de 24 horas:"))
+tarea= input("dame el tipo de tarea como deporte, estudio, descanso o trabajo:")
+if hora>1 and hora<=5:
+  print("debes de estar dormido")
+elif hora>5 and hora<14:
+  print("debes estar en clase")
+elif hora>14 and hora<22:
+  print("puedes hacer tareas")
+if hora>18 and hora<22 and tarea=="descanso":
+  print("ademas de tomar una siesta, puedes comenzar con tus tareas")
+if hora>18 and hora<22 and dia=="sabado":
+  print("puedes ver una pelicula")
+if hora>18 and hora<22 and dia=="domingo":
+  print("puedes ver una pelicula")
+if hora>14 and hora<20 and dia=="miercoles":
+  print("puedes ir al gimnasio")
+if hora>14 and hora<20 and dia=="jueves":
+  print("puedes ir al gimnasio")
+if hora>13 and hora<15 and dia=="martes":
+  print("espero estes comiendo nutritivo")
+if hora>13 and hora<15 and dia=="lunes":
+  print("espero estes comiendo nutritivo")
+
+  https://replit.com/@SamanthaGrijalv/examen-2-parcial?v=1
+  
